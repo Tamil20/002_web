@@ -1,0 +1,41 @@
+body {
+    margin: 0px;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+/*navbar-styles*/
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+    
+}
+.logo {
+    display: flex;
+}
+.navmenu {
+    display: flex;
+}
+.nav-wrapper > .navmenu > div {
+    font-size: 0.9em;
+    margin-right: 20px;
+}
+.navmenulink {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+.navmenulink a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+.navmenulink:hover {
+    border-bottom: 1px solid black;
+}
+.navmenulink:hover a {
+    color: black;
+}
+/*Homepage-styles*/
